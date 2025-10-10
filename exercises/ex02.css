@@ -1,0 +1,21 @@
+p { color: rgba(221, 23, 16, 0.738); 
+    font-family: Impact; 
+    margin: 0px; }
+ol { background: rgb(255, 219, 75); }
+h1 { background: rgb(169, 169, 234); 
+    font-size: 40px; 
+    font-family: 'Times New Roman'; }
+li { margin-bottom: 40;
+    margin-top: 40;}
+ol { font-size: 18;
+    font-family: sans-serif; 
+    margin: 40px; 
+    border: 3px dashed rgb(28, 28, 161) }
+
+.high1 {background: yellowgreen; }
+.high2 {background: pink; }
+
+#mypokemon {
+    width: 300px;
+    margin-left: 90px;
+}

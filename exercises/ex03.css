@@ -1,0 +1,29 @@
+.test-div {color: rgb(9, 85, 120);
+background: rgb(241, 184, 194);
+padding: 20px;
+margin: 30px; }
+
+.test-div:hover {background-color: rgb(57, 207, 237);}
+
+body {background: rgb(68, 98, 119);}
+
+.test-div h2 {color: rgb(150, 50, 95);}
+
+.button { padding-top: 20px; }
+.button button {background-color: rgb(61, 105, 149);
+color: antiquewhite;}
+
+.special h2 {font-size: 30;
+color: rgb(39, 87, 100);
+text-align: center;
+margin-top: 30px;
+background-color: rgb(241, 184, 194);}
+
+.special {color: rgb(236, 186, 202);
+margin: 30px;
+font-size: 18}
+
+.special button {background-color: rgb(126, 42, 109);
+color: antiquewhite;
+margin-top: 20px;}
+
