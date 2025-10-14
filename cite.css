@@ -1,21 +1,35 @@
 body { background: #e9a89c; 
     padding: 50px;}
-h1, h2, h3 {color: #2c7269;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-#introduction h2 {background-color: rgb(188, 237, 197);
-font-size: 27px;
-border: dotted 5px rgb(178, 80, 71);
-padding: 10px;}
-#introduction p {color: #0d5148;}
-h1 {font-size: 45px;}
-#mypic {width: 300px; }
-p {font-family: monospace;
-font-size: 20px;}
-ol {font-family: monospace;
+h1, h2, h3 {
+    color: #2c7269;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+#introduction h2 {
+    background-color: rgb(188, 237, 197);
+    font-size: 27px;
+    border: dotted 5px rgb(178, 80, 71);
+    padding: 10px;}
+#introduction p {
+    color: #0d5148;}
+h1 {
+    font-size: 45px;}
+#mypic {
+    width: 350px;
+    border: dotted 5px rgb(178, 80, 71);
+}
+p {
+    font-family: monospace;
     font-size: 20px;}
 
 .navigation {
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+    flex-direction: row;
+}
+#mylist {
+    background-color: rgb(188, 237, 197);
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 15px; 
+    border: dotted 5px rgb(178, 80, 71); 
 }
