@@ -1,0 +1,45 @@
+#chopper {
+    width: 250px;
+    border: 10px dotted rgb(11, 9, 124);
+    margin-left: 550px;
+}
+#deserts {
+    width: 200px;
+}
+body { 
+    background-color: rgb(141, 196, 230);
+}
+h2 {
+    color: rgb(238, 238, 147);
+    font-family: sans-serif;
+    font-size: 35;
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding-bottom: 45px;
+    padding-top: 20px;
+}
+h1 {color: rgb(238, 238, 147);
+    font-family: sans-serif;
+    font-size: 40;
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+#water {width: 500px;}
+
+.environment {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#goingmerry {width: 200px;}
