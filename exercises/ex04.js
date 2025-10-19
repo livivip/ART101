@@ -17,10 +17,19 @@ $("#very-button").click( function() {
 
 if (veryNumber == 9) {$("#very-button").html("Stop clicking me!")}
 
-//when clicked 
-//add one to count of total number 
-//show total number 
-//on the button
-//show "clicked total number times"
-//parameter for the count of the button
 
+//2nd class 
+
+colorCount = 0 
+let colors = ["ruby", "cyan", "light green", "navy", 'aquamarine', "magenta"]
+
+
+$("#color-button").click( function() {
+    let reminder=colorCount % colors.length;
+
+    $("#color-button").html("Clicks: " + colorCount + " Color: " + colors[colorCount]); 
+   
+    $("body").css("background-color", colors[reminder]);
+    colorCount = colorCount + 1;
+
+});
