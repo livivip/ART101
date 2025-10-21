@@ -33,3 +33,17 @@ p {
     font-size: 15px; 
     border: dotted 5px rgb(178, 80, 71); 
 }
+
+.otherNavigation {
+    display: flex;
+    flex-direction: row;
+}
+#mylab {
+    background-color: rgb(188, 237, 197);
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 15px; 
+    border: dotted 5px rgb(178, 80, 71); 
+}
