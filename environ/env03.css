@@ -1,37 +1,41 @@
 #chopper {
-    width: 250px;
-    border: 10px dotted rgb(11, 9, 124);
-    margin-left: 550px;
+    width: 400px;
+    margin-left: 0px;
 }
 #deserts {
     width: 200px;
+    padding-top: 190;
 }
 body { 
+    background-image: url("images/road.jpg");
+    background-repeat: no-repeat;
     background-color: rgb(141, 196, 230);
 }
 h2 {
-    color: rgb(238, 238, 147);
+    color: rgb(255, 0, 123);
     font-family: sans-serif;
     font-size: 35;
     display: block;
     margin: auto;
     width: 80%;
-    padding-bottom: 45px;
-    padding-top: 20px;
+    text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
+
 }
-h1 {color: rgb(238, 238, 147);
+h1 {color: rgb(255, 0, 123);
     font-family: sans-serif;
     font-size: 40;
-    display: block;
-    margin: auto;
-    width: 80%;
-    padding: 20px;
+    text-align: center;
     padding-top: 30px;
+    text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
 }
 
 .images {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding-top: 250px;
+    width: 100%;
+    height: auto;
 }
 
 #water {width: 500px;}
@@ -42,4 +46,28 @@ h1 {color: rgb(238, 238, 147);
     flex-direction: row;
 }
 
-#goingmerry {width: 200px;}
+#ship {width: 200px;
+padding-left: 50px;}
+
+.buttons {text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-left: 400;
+    margin-right: 400;
+    border: solid 5px rgb(0, 136, 255);
+}
+
+#happyButton {color: #009728;
+    background-color: #bdff67;
+    border: solid 5px ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-top: 20;
+}
+
+#sadButton {color: #da0505;
+    background-color: #ff9486;
+    border: solid 5px ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20;
+}
