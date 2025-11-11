@@ -106,14 +106,16 @@ function guessFood() {
     }
 }
 
+//makes it so when you click neutral button, guess food goes into effect 
 $("#neutralButton").click(function () {
     guessFood();
 });
 
-// makes cake disappear when clicked on chopper
-$("#chopper").click(function(){
+//hides the ship + the cake when you take chopper to a new location 
+$(".buttons").click(function(){
     $("#deserts").hide();
-  });
+    $("#ship").hide();
+ });
 
 //hover things for my buttons so its obvious to the user when theyre hovering over them 
   $("#neutralButton").hover(function(){
@@ -145,3 +147,15 @@ $("#chopper").click(function(){
         "color": "#da0505",
     });
   });
+
+//the more you click the cake, the bigger chopper gets + hides ship 
+$("#deserts").click(function(){
+    $("#chopper").animate({
+      height: '+=50px',
+      width: '+=50px'
+    });
+    $("#ship").hide();
+    $("h1").html("CHOPPER IS BECOMING ... BIGGER !!!");
+    $("h2").html("STOP FEEDING HIM CAKE");
+
+  }); 
