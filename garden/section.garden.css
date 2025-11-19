@@ -2,5 +2,26 @@ h1 {
     text-align: center;
     font-family: monospace;
     font-size: 30px;
+    color: rgb(83, 51, 11);
+    background-color:rgb(233, 184, 144)
 }
 
+.field {
+    color: rgb(122, 78, 25);
+}
+
+#subtitle {
+    color: rgb(122, 78, 25);
+}
+
+body {
+    background-color: bisque;
+}
+
+#form-title {
+    font-family: monospace;
+}
+
+#zone-title {
+    font-family: monospace;
+}
